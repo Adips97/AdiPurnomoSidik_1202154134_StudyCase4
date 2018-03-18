@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="android.example.com.adipurnomosidik_1202154134_studycase4.MainActivity">
+
+    <Button
+        android:id="@+id/tmpl_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tampilNama"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Tampil Nama" />
+
+    <Button
+        android:id="@+id/cari_gambar"
+        android:layout_width="match_parent"
+        android:onClick="tampilGambar"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar" />
+
+</LinearLayout>
